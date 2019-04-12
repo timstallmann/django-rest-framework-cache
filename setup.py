@@ -1,13 +1,12 @@
 from setuptools import setup
-import rest_framework_cache
 
 github_url = "https://github.com/timstallmann/django-rest-framework-cache/"
 
 setup(
     name="rest-framework-cache",
-    version=rest_framework_cache.__version__,
-    author=rest_framework_cache.__author__,
-    author_email=rest_framework_cache.__email__,
+    version='0.11',
+    author='Ervilis Souza',
+    author_email='ervilisviana@gmail.com',
     description="Easy to use cache framework for django-rest-framwork apps",
     license="GPLv3",
     keywords="rest_framework_cache",
